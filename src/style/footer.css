@@ -1,0 +1,9 @@
+footer {
+  padding: 34px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer strong {
+  color: rgb(215, 54, 81);
+}
