@@ -9,6 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Bruna Carla</title>
     <link rel="shortcut icon" href="src/assets/logo-bruna.svg" type="image/x-icon">
     <link rel="stylesheet" href="src/style/reset.css">
@@ -23,9 +25,9 @@
           src="https://avatars.githubusercontent.com/u/99828311?v=4"
           alt="Foto do perfil da programadora Bruna Carla, usando óculos, blusa de gola alta preta"
         />
-        <p class="profile_name">@bruna_sntg0</p>
+        <p class="profile_name">Bruna Carla</p>
         <p class="profile_description">
-          Sou desenvolvedora front-end freelancer, especializada em criar interfaces modernas, responsivas e intuitivas.
+          Front-end Developer | Criação de Websites 👩🏻‍💻
         </p>
       </section>
       <section id="switch" onclick="toggleMode()">
@@ -34,23 +36,23 @@
       </section>
       <section>
           <ul id="lista">
-          <li>
-            <a rel="noopener noreferrer" id="whatsappLink" href="https://wa.me/5521975956657" target="_blank"
+          <li data-aos="fade-right" data-aos-duration="2000">
+            <a   rel="noopener noreferrer" id="whatsappLink" href="https://wa.me/5521975956657" target="_blank"
               ><ion-icon name="logo-whatsapp"></ion-icon>Faça o seu Orçamento</a
             >
           </li>
-          <li>
+          <li  data-aos="fade-left" data-aos-duration="2000">
             <a rel="noopener noreferrer" href="https://santiagobruna.github.io/portfolio/" target="_blank"
-              ><ion-icon name="code-slash-outline"></ion-icon> Acesse meu
-              Portfólio</a
+              ><ion-icon name="code-slash-outline"></ion-icon> Acesse o meu
+              WebSite</a
             >
           </li>
-          <li>
-            <a rel="noopener noreferrer" href="https://santiagobruna.github.io/portfolio/#projetos" target="_blank"
+          <li data-aos="fade-right" data-aos-duration="2000">
+            <a  rel="noopener noreferrer" href="https://santiagobruna.github.io/portfolio/#projetos" target="_blank"
               ><ion-icon name="construct-outline"></ion-icon>Acesse meus Projetos</a
             >
           </li>
-          <li>
+          <li data-aos="fade-left" data-aos-duration="2000">
             <a rel="noopener noreferrer" href="https://www.linkedin.com/in/brunacribeiro/" target="_blank"
               ><ion-icon name="logo-linkedin"></ion-icon>Acesse meu LinkedIn</a
             >
@@ -70,5 +72,9 @@
       src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
     ></script>
     <script src="src/script/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
