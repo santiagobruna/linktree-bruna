@@ -32,12 +32,14 @@ body * {
 
 /* Swicth */
 #switch {
+  cursor: pointer;
   width: 64px;
   position: relative;
   margin: 4px auto;
 }
 #switch button {
   width: 32px;
+  cursor: pointer;
   height: 32px;
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
