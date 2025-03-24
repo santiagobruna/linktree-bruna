@@ -1,6 +1,6 @@
 :root {
   --text-color: white;
-  --bg-url: url(../assets/bg-dark.png);
+  --bg-url: url(../assets/bg-mobile.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -101,14 +101,22 @@ body * {
 
 /* de 700px pra cima */
 @media (min-width: 700px) {
-  :root {
-    --bg-url: url(../assets/bg-desktop.jpg);
+  body {
+    background-color: #121212; /* Fundo escuro para telas maiores */
   }
   .light {
     --bg-url: url(../assets/bg-desktop-light-mode.jpg);
   }
 }
-
+/* Modo escuro em telas menores */
+@media (max-width: 699px) {
+  body {
+    background-color: #121212;  /* Cor de fundo para o modo escuro */
+  }
+  .light {
+    --bg-url: url(../assets/bg-mobile-light.jpg);
+  }
+}
 /* animation */
 @keyframes slide-in {
   from {
