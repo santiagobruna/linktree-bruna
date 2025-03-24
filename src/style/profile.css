@@ -8,20 +8,21 @@
   padding: 24px;
 }
 .profile_photo {
-  width: 122px;
+  width: 100px;
   cursor: pointer;
   border-radius: 60px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   &:hover {
       transform: scale(1.2);
   }
 }
 .profile_name {
   font-weight: 500;
+  font-size: 15px;
 }
 .profile_description {
   font-weight: 500;
-  line-height: 24px;
-  line-height: 1.5;
   text-align: center;
+  font-size: 15px;
+  font-family: 'Pacifico', cursive;
 }
