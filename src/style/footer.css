@@ -4,6 +4,6 @@ footer {
   font-size: 14px;
 }
 
-footer strong {
+footer strong a{
   color: rgb(215, 54, 81);
 }
